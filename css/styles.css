@@ -1,5 +1,4 @@
 body {
-  background-color: #9CB4CC;
   margin: 0;
   text-align: center;
   /**/
@@ -36,6 +35,10 @@ table {
   /*top right bottom left*/
 }
 
+p {
+  line-height: 1.5;
+}
+
 .top-container {
   background-color: #9CB4CC;
   position: relative;
@@ -44,11 +47,47 @@ table {
 }
 
 .middle-container {
-  margin: 100px auto 100px auto;
+  margin: 100px 0 100px 0;
   /*top right bottom left*/
 }
 
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skills {
+  margin: auto;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.code-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.invest-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.code-img-des {
+  clear: left;
+}
+
+.invest-img-des {
+  clear: right;
+}
+
 .bottom-container {
+  background-color: #9CB4CC;
   margin: 100px auto 100px auto;
   /*top right bottom left*/
 }
@@ -95,4 +134,9 @@ table {
 
 .link:hover img {
   	filter: grayscale();
+}
+
+.copyright {
+  color: white;
+  font-size: 0.75rem;
 }
